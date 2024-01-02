@@ -6,7 +6,7 @@ import Result from "./components/Result";
 export default function App() {
   const [gameState, setGameState] = useState("before");
   const [api, setApi] = useState(
-    "https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple&encode=base64"
+    "https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple"
   );
   const [quiz, setQuiz] = useState([]);
   const [point, setPoint] = useState(0);
