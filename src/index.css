@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #f5f7fb;
+}
+
+main {
+  font-family: "Karla", sans-serif;
+  padding: 20px 50px;
+  background-color: #f5f7fb;
+  border: 1px solid #293264;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-graphic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  z-index: 0;
+}
+
+.bot-graphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 1;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.game-description {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 10px 10px;
+  background-color: #f5f7fb;
+  border: 1px solid #293264;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Hide the default radio button */
+input[type="radio"] {
+  display: none;
+}
+
+/* Style the label to look like a button */
+input[type="radio"] + label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+  color: #293264;
+  cursor: pointer;
+  border: 1px solid #293264;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+input[type="radio"]:hover + label:hover {
+  background-color: #d6dbf5;
+}
+
+/* Change button style when radio is checked */
+input[type="radio"]:checked + label {
+  background-color: #d6dbf5;
+}
+
+input[type="radio"] + label.correct_answer {
+  background-color: #94d7a2;
+  font-weight: 800;
+  border: none;
+}
+
+input[type="radio"] + label.wrong_answer {
+  background-color: #f8bcbc;
+  border: none;
+}
+
+.result-radio {
+  opacity: 70%;
+}
+
+.answer-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.quiz-container {
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.question {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 1px solid #293264;
+  color: #293264;
+  background-color: #f5f7fb;
+  border-radius: 10px;
+  transition: ease 0.2s;
+  z-index: 99;
+}
+
+.submit-btn:hover {
+  color: #f5f7fb;
+  background-color: #293264;
+}
+.start {
+  padding: 10px 130px;
+}
+hr {
+  color: #dbdef080;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.score-container {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.score-container > button {
+  margin: 0;
+}
+.final-score {
+  font-size: 25px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}

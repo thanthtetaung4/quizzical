@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 65.00 62.00">
+<path fill="#deebf8" d="
+  M 0.00 0.00
+  L 8.73 0.00
+  Q 17.08 1.06 19.25 1.50
+  Q 32.33 4.19 41.40 12.10
+  Q 57.72 26.34 62.93 48.50
+  Q 63.97 52.92 65.00 61.63
+  L 65.00 62.00
+  L 0.00 62.00
+  L 0.00 0.00
+  Z"
+/>
+</svg>
