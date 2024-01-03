@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import PropsTypes from "prop-types";
+import topImage from "../assets/big-blob-thingy.svg";
+import bottomImage from "../assets/medium-blob-thingy.svg";
 
 export default function Welcome(props) {
   const [categories, setCategories] = useState(
@@ -80,12 +82,8 @@ export default function Welcome(props) {
           <button className="submit-btn start">Start</button>
         </form>
       )}
-      <img src="src/assets/big-blob-thingy.svg" className="top-graphic" />
-      <img
-        src="src/assets/medium-blob-thingy.svg"
-        alt=""
-        className="bot-graphic"
-      />
+      <img src={topImage} className="top-graphic" />
+      <img src={bottomImage} alt="" className="bot-graphic" />
     </main>
   );
 }

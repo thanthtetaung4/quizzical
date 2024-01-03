@@ -1,5 +1,7 @@
 import PropsTypes from "prop-types";
 import Question from "./Question";
+import topImage from "../assets/big-blob-thingy.svg";
+import bottomImage from "../assets/small-blob-thingy.svg";
 
 export default function Result(props) {
   const quiz = props.quiz;
@@ -25,12 +27,8 @@ export default function Result(props) {
             Restart
           </button>
         </div>
-        <img src="src/assets/big-blob-thingy.svg" className="top-graphic" />
-        <img
-          src="src/assets/small-blob-thingy.svg"
-          alt=""
-          className="bot-graphic"
-        />
+        <img src={topImage} className="top-graphic" />
+        <img src={bottomImage} alt="" className="bot-graphic" />
       </main>
     </>
   );
