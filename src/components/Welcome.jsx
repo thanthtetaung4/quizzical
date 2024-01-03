@@ -80,9 +80,9 @@ export default function Welcome(props) {
           <button className="submit-btn start">Start</button>
         </form>
       )}
-      <img src="./src/assets/big-blob-thingy.svg" className="top-graphic" />
+      <img src="src/assets/big-blob-thingy.svg" className="top-graphic" />
       <img
-        src="./src/assets/medium-blob-thingy.svg"
+        src="src/assets/medium-blob-thingy.svg"
         alt=""
         className="bot-graphic"
       />
