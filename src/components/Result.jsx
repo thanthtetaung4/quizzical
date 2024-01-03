@@ -25,9 +25,9 @@ export default function Result(props) {
             Restart
           </button>
         </div>
-        <img src="./src/assets/big-blob-thingy.svg" className="top-graphic" />
+        <img src="src/assets/big-blob-thingy.svg" className="top-graphic" />
         <img
-          src="./src/assets/small-blob-thingy.svg"
+          src="src/assets/small-blob-thingy.svg"
           alt=""
           className="bot-graphic"
         />
